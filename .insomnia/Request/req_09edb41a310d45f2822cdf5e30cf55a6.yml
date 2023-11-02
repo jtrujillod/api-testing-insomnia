@@ -1,7 +1,7 @@
 _id: req_09edb41a310d45f2822cdf5e30cf55a6
 type: Request
 parentId: wrk_ec9f17d616784c0991fdca4a3d4d7082
-modified: 1697637797390
+modified: 1698964200382
 created: 1689371425854
 url: "{{ _.baseUrl }}/services/risks/api/rest/v1/organizations/{% response
   'body', 'req_67428c4c6a704ebebf3b9d576319e0f9',
@@ -17,7 +17,7 @@ body:
     {
         "name": "Riesgo update 1",
         "code": "2",
-        "description": "Otra prueba de riesgos 30",
+        "description": "Update api testing risk",
         "frequency": {% response 'body', 'req_8b1e6422797340b0b115bc275def3510', 'b64::JC4uWzFdLmlk::46b', 'never', 60 %},
         "impact": {% response 'body', 'req_fdd7f100f382477896a944772d5ee170', 'b64::JC4uWzRdLmlk::46b', 'never', 60 %},
         "processes": [],
