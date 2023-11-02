@@ -1,0 +1,20 @@
+_id: env_7f18e3bbf5a6442ca1626718a2b9b7dd
+type: Environment
+parentId: env_7944f90442f274f7490324e43f0c357d9b0e954b
+modified: 1696861165501
+created: 1689522240292
+name: Cert
+data:
+  baseUrl: https://cert.pirani.co
+  email: reports8@pirani.co
+  password: Pruebas2022+
+  SG: ORM
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - email
+    - password
+    - SG
+color: "#f0d528"
+isPrivate: false
+metaSortKey: 1689522240292

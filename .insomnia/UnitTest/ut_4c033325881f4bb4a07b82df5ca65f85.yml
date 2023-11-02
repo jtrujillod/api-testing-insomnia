@@ -1,0 +1,10 @@
+_id: ut_4c033325881f4bb4a07b82df5ca65f85
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697231167444
+created: 1697230226172
+requestId: req_51cd2d8bb9804732ad2135ee0d7786b4
+name: Delete - Assertion
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

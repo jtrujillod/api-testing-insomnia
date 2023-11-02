@@ -1,0 +1,20 @@
+_id: env_3797e1bfa4e144af977bfd140496dbf5
+type: Environment
+parentId: env_7944f90442f274f7490324e43f0c357d9b0e954b
+modified: 1698936752085
+created: 1689522164778
+name: Dev
+data:
+  baseUrl: https://dev.pirani.co
+  email: aml108@pirani.co
+  password: Devpro1.abc
+  SG: ORM
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - email
+    - password
+    - SG
+color: "#67ec36"
+isPrivate: false
+metaSortKey: 1689522164778

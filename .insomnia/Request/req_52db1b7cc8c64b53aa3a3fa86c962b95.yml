@@ -1,0 +1,51 @@
+_id: req_52db1b7cc8c64b53aa3a3fa86c962b95
+type: Request
+parentId: wrk_ec9f17d616784c0991fdca4a3d4d7082
+modified: 1697637734292
+created: 1696861079604
+url: "{{ _.baseUrl
+  }}/services/risks/api/rest/v1/organizations/0000001238/risks/ORM/list?batchSi\
+  ze=25"
+name: Fill
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"dynamicFilter": {
+    		"date": [],
+    		"list": [],
+    		"text": []
+    	},
+    	"additionalFilters": [],
+    	"staticFilter": {
+    		"date": [],
+    		"list": [],
+    		"text": [
+    			{
+    				"codeField": "description",
+    				"value": "Google confía en los Pixel"
+    			}
+    		]
+    	}
+    }
+parameters: []
+headers:
+  - id: pair_40e22807740849fdbb4adf11623ff863
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_027d322ee10a49a480b4b960f4796f9e',
+    'b64::JC5kYXRhLmlkX3Rva2Vu::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1689346885659
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: ut_84da2e1142ff4841a5b480180b2f8fd9
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697230213677
+created: 1697230211343
+requestId: req_09edb41a310d45f2822cdf5e30cf55a6
+name: Put - Assertion
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,12 @@
+_id: ut_d0b9bd60ecba47cd86c59605778b48f4
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697745377189
+created: 1697745068973
+requestId: req_d2532c5e84014c3ca1eac7b206f25422
+name: Impact - Assertion
+code: |
+  const response = await insomnia.send();
+  expect(response.status).to.equal(200);
+  // Verifica que la respuesta sea un objeto
+  expect(response).to.be.an('object');

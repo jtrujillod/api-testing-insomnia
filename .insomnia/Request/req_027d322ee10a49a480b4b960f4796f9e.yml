@@ -1,0 +1,29 @@
+_id: req_027d322ee10a49a480b4b960f4796f9e
+type: Request
+parentId: fld_d47d9686711b40ef81accad6b53eb74a
+modified: 1698935148056
+created: 1689347259744
+url: "{{ _.baseUrl }}/services/auth/api/rest/v1/auth/login?"
+name: Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.email }}",
+    	"password": "{{ _.password }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689347111648.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

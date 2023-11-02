@@ -1,0 +1,10 @@
+_id: ut_d15f1e77c82443479a349bc722907687
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697227356662
+created: 1697227352039
+requestId: req_67428c4c6a704ebebf3b9d576319e0f9
+name: DomainId - Assertion
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,10 @@
+_id: ut_8c1c368a709146558f09202d58109799
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697236711604
+created: 1697227271753
+requestId: req_027d322ee10a49a480b4b960f4796f9e
+name: Token - Assertion
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

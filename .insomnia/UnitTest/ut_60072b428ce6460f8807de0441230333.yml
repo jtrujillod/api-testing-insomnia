@@ -1,0 +1,12 @@
+_id: ut_60072b428ce6460f8807de0441230333
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697227910241
+created: 1697227810041
+requestId: req_683ba2899e6144ac8648314d0de87e14
+name: Get- Assertion
+code: |-
+  const response1 = await insomnia.send();
+
+  // Verifica que el código de estado sea 200, 201, 202, 203 o 204
+  expect(response1.status).to.be.oneOf([200, 201, 202, 203, 204]);

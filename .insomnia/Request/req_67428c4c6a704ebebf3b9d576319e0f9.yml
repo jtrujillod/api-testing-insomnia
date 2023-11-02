@@ -1,0 +1,28 @@
+_id: req_67428c4c6a704ebebf3b9d576319e0f9
+type: Request
+parentId: fld_d47d9686711b40ef81accad6b53eb74a
+modified: 1697637614498
+created: 1689372491723
+url: "{{ _.baseUrl }}/services/organizations/api/rest/v1/organizations/byuser"
+name: Domain Id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_027d322ee10a49a480b4b960f4796f9e',
+    'b64::JC5kYXRhLmlkX3Rva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1689347111598.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

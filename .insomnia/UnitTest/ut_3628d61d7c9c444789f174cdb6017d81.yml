@@ -1,0 +1,27 @@
+_id: ut_3628d61d7c9c444789f174cdb6017d81
+type: UnitTest
+parentId: uts_500604dd8c9640588f423863330d13c3
+modified: 1697745604213
+created: 1697227572303
+requestId: req_1135fd3d1b4646599421df07762b9f8f
+name: Create - Assertion
+code: |+
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+
+  console.log(body);
+
+  // Verifica que el código de estado sea 200, 201, 202, 203 o 204
+  expect(response.status).to.be.oneOf([200, 201, 202, 203, 204]);
+
+  // Verifica que la respuesta sea un objeto
+  expect(response).to.be.an('object');
+
+  // Verifica que el atributo 'data' exista en la respuesta
+  expect(body).to.have.property('data');
+
+  // Verifica que el valor del atributo 'successful' sea igual a true
+  expect(body.successful).to.equal(true);
+
+
+

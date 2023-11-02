@@ -1,0 +1,10 @@
+_id: fld_9d2e2d11924c41ce8d59ae7e6a169eb1
+type: RequestGroup
+parentId: wrk_ec9f17d616784c0991fdca4a3d4d7082
+modified: 1690414015124
+created: 1690413944562
+name: Get Impacto - Frecuencia
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1689360867715.5
