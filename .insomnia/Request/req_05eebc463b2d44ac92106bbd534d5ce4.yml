@@ -1,0 +1,50 @@
+_id: req_05eebc463b2d44ac92106bbd534d5ce4
+type: Request
+parentId: fld_f242ad9e210e4f51bb95698b0e2dbd08
+modified: 1690835067116
+created: 1690571347755
+url: "{{ _.baseUrl }}/aml-api/entity/PRODUCTS"
+name: Product-Prod
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identificationType": "6",
+    	"identificationNumber": "1001700",
+    	"parentType": "CLIENTS",
+    	"product": "496",
+    	"subproduct": "94",
+    	"productState": "4",
+    	"productNumber": "980001000",
+    	"registrationDate": "2018-08-11",
+    	"expirationDate": "2020-10-27",
+    	"city": "2",
+    	"branchOffice": "3",
+    	"distributionChannel": "default",
+    	"currencyType": "default",
+    	"openingAmount": "41900002.04",
+    	"balanceatDate": "6509044.82",
+    	"openingPeriod": "8902000",
+    	"monthlyBonus": "1909002.82"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1690418328447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

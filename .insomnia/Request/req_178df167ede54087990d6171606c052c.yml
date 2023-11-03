@@ -1,0 +1,41 @@
+_id: req_178df167ede54087990d6171606c052c
+type: Request
+parentId: wrk_0a0e835ab4d542cd8e5b50036c65ebc0
+modified: 1696021570191
+created: 1696021565958
+url: "{{ _.baseUrl }}/aml-api/entity/CLIENTS"
+name: Client2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identificationType": 1,
+    	"identificationNumber": "8",
+    	"personType": "2",
+    	"firstName": "Salvador",
+    	"firstLastName": "Salvador",
+    	"businessName": "Lebrón y Prieto",
+    	"bornDate": "Mon Oct 09 23:06:52 COT 2000",
+    	"constitutionDate": WedAug1215: 52: 05COST1992
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1689346761001.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

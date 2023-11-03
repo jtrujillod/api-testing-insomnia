@@ -1,0 +1,44 @@
+_id: req_380b07c1fbe349b6b4764a929bb5ea86
+type: Request
+parentId: wrk_0a0e835ab4d542cd8e5b50036c65ebc0
+modified: 1697549065595
+created: 1689691916747
+url: "{{ _.baseUrl }}/aml-api/entity/COUNTERPARTIES"
+name: Counterparties
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identificationType": "1",
+    	"identificationNumber": "2011",
+    	"personType": "1",
+    	"counterpartyType": "2",
+    	"creationDate": "1989-08-04",
+    	"registrationDate": "2011-09-02T11:21:11",
+    	"state": "Activo",
+    	"firstName": "Marieta",
+    	"firstLastName": "Fierro",
+    	"businessName": "Nichols-Stout",
+    	"727588c0-a863-4ca4-915b-d73ddfc76bbd": "900"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1689346760989
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

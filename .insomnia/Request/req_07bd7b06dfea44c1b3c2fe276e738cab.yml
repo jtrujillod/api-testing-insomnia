@@ -1,0 +1,43 @@
+_id: req_07bd7b06dfea44c1b3c2fe276e738cab
+type: Request
+parentId: fld_f242ad9e210e4f51bb95698b0e2dbd08
+modified: 1690581847808
+created: 1690573197750
+url: "{{ _.baseUrl }}/aml-api/entity/COUNTERPARTIES"
+name: Counterparties-Prod
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identificationType": "1",
+    	"identificationNumber": "1966",
+    	"personType": "1",
+    	"counterpartyType": "3",
+    	"creationDate": "1989-08-04",
+    	"state": "Active",
+    	"firstName": "Marcela",
+    	"firstLastName": "Herrera",
+    	"businessName": "Nichols-Stout",
+    	"727588c0-a863-4ca4-915b-d73ddfc76bbd": "900"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1690418328459.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

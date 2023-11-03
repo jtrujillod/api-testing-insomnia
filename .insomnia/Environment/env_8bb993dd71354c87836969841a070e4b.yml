@@ -1,0 +1,16 @@
+_id: env_8bb993dd71354c87836969841a070e4b
+type: Environment
+parentId: env_4ba2fc6a0fe8d08426845303dca5bd0107ded1d9
+modified: 1691787809519
+created: 1689952345273
+name: Cert
+data:
+  baseUrl: https://api-gateway-cert.pirani.co
+  x-api-key: PN.fcs6INTl9NnB.M4dyuYMaCQNvpyWBH3_ie_cQCi6UV5PWw1erYRPDZgC6BB-i
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - x-api-key
+color: "#efe81f"
+isPrivate: false
+metaSortKey: 1689952345273

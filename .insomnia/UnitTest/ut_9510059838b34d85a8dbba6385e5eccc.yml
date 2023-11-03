@@ -1,0 +1,10 @@
+_id: ut_9510059838b34d85a8dbba6385e5eccc
+type: UnitTest
+parentId: uts_4bf3dc68cf9442d3b0455dae0eb35c04
+modified: 1697226863000
+created: 1697211937877
+requestId: req_380b07c1fbe349b6b4764a929bb5ea86
+name: Assertion  - Counterparties
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

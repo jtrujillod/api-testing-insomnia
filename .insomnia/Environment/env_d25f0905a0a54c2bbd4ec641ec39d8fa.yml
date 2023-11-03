@@ -1,0 +1,16 @@
+_id: env_d25f0905a0a54c2bbd4ec641ec39d8fa
+type: Environment
+parentId: env_4ba2fc6a0fe8d08426845303dca5bd0107ded1d9
+modified: 1690555860213
+created: 1690555333563
+name: Prod
+data:
+  baseUrl: https://aml-services.pirani.co
+  x-api-key: PN.mSObm-W-MFVK.KQKE3gD4IgWxiJQfQvcCTec8Q29J2v216aPce12J_kOzDBCM
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - x-api-key
+color: "#ff330f"
+isPrivate: false
+metaSortKey: 1690555333564

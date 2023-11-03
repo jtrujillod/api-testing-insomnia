@@ -1,0 +1,47 @@
+_id: req_a27d86f907a842edaef3d4b4a7b840c2
+type: Request
+parentId: wrk_0a0e835ab4d542cd8e5b50036c65ebc0
+modified: 1697549059146
+created: 1689347108062
+url: "{{ _.baseUrl }}/aml-api/entity/TRANSACTIONS"
+name: Transaction
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"productNumber": "50003",
+    	"transactionCode": "50004",
+    	"transactionDate": "2002-10-10T09:59:29",
+    	"nature": "2",
+    	"operationValue": "8830473",
+    	"cashValue": "20390391.99",
+    	"checkValue": "90930492.78",
+    	"electronicChannelValue": "29039012.75",
+    	"currencyType": "default",
+    	"distributionOrReceptionChannel": "6",
+    	"country": "KOR",
+    	"city": "BGD",
+    	"branchOffice": "120",
+    	"reverseTransaction": "Genérico"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1689346760914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

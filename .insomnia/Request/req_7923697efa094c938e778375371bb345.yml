@@ -1,0 +1,56 @@
+_id: req_7923697efa094c938e778375371bb345
+type: Request
+parentId: fld_f242ad9e210e4f51bb95698b0e2dbd08
+modified: 1690837760421
+created: 1690564409832
+url: "{{ _.baseUrl }}/aml-api/entity/CLIENTS"
+name: Client-Prod
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identificationType": "6",
+    	"identificationNumber": "1001703",
+    	"personType": "1",
+    	"firstName": "Pablo",
+    	"secondName": "Garzón",
+    	"firstLastName": "Estrada",
+    	"secondLastName": "Barbosa",
+    	"businessName": "Murillo - Davis and Simmons.",
+    	"registrationDate": "1990-08-15T10:00:48",
+    	"updateAt": "1990-02-12T10:39:03",
+    	"constitutionDate": "1986-09-21T10:00:48",
+    	"bornCountry": "3",
+    	"bornCity": "4",
+    	"sex": "4",
+    	"economicActivity": "8",
+    	"bondingMedium": "Genérico",
+    	"state": "4",
+    	"income": "5915000",
+    	"otherIncome": "5413413.33",
+    	"totalIncome": "6027025.55",
+    	"passives": "3779735.32",
+    	"assets": "1989290",
+    	"accountingEquity": "35435300"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1690418328472
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

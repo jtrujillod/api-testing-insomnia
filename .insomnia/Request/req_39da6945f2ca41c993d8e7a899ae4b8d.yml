@@ -1,0 +1,47 @@
+_id: req_39da6945f2ca41c993d8e7a899ae4b8d
+type: Request
+parentId: fld_f242ad9e210e4f51bb95698b0e2dbd08
+modified: 1690834068875
+created: 1690571400437
+url: "{{ _.baseUrl }}/aml-api/entity/TRANSACTIONS"
+name: Transaction-Prod
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"productNumber": "980001000",
+    	"transactionCode": "9890005000",
+    	"transactionDate": "1997-10-10T09:59:29",
+    	"nature": "1",
+    	"operationValue": "909885679",
+    	"cashValue": "34580909.99",
+    	"checkValue": "345346908.78",
+    	"electronicChannelValue": "29039012.75",
+    	"currencyType": "1",
+    	"distributionOrReceptionChannel": "4",
+    	"country": "1",
+    	"city": "3",
+    	"branchOffice": "4",
+    	"reverseTransaction": "Si"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1690418328397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

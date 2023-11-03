@@ -1,0 +1,16 @@
+_id: env_32051f5c2e5c46c18322bfd8f5869fb1
+type: Environment
+parentId: env_4ba2fc6a0fe8d08426845303dca5bd0107ded1d9
+modified: 1698941134603
+created: 1689523471806
+name: Dev
+data:
+  baseUrl: https://api-gateway-dev.pirani.co
+  x-api-key: PN.jpNertgvM0Lu.OI-BhVcOgnMwN44z2GRE_I8nD3-T7viF14QOHG1lGJjtluHq
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - x-api-key
+color: "#4ae51f"
+isPrivate: false
+metaSortKey: 1689523471806

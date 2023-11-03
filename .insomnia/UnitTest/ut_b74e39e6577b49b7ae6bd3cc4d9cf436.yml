@@ -1,0 +1,10 @@
+_id: ut_b74e39e6577b49b7ae6bd3cc4d9cf436
+type: UnitTest
+parentId: uts_4bf3dc68cf9442d3b0455dae0eb35c04
+modified: 1697226847550
+created: 1697211929202
+requestId: req_a27d86f907a842edaef3d4b4a7b840c2
+name: Assertion  - Transactions
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,10 @@
+_id: ut_f1360d01a8354e799a93ca8720cac7de
+type: UnitTest
+parentId: uts_4bf3dc68cf9442d3b0455dae0eb35c04
+modified: 1697226843433
+created: 1697211914933
+requestId: req_640e3ebb0646427ea3beec7696cf9c2c
+name: Assertion  - Products
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

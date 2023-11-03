@@ -1,0 +1,59 @@
+_id: req_fe86773a744b4c5c89245e7d3b49713b
+type: Request
+parentId: wrk_0a0e835ab4d542cd8e5b50036c65ebc0
+modified: 1697549033822
+created: 1689346761014
+url: "{{ _.baseUrl }}/aml-api/entity/CLIENTS"
+name: Client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identificationType": "1",
+    	"identificationNumber": "720333",
+    	"personType": "1",
+    	"firstName": "Antonio",
+    	"firstLastName": "Restrepo",
+    	"businessName": "Hobbs-Avila-6",
+    	"bornDate": "1981-04-04T00:08:56",
+    	"constitutionDate": "2017-08-21T10:00:48",
+    	"bornCountry": "TUV",
+    	"bornCity": "ZWE",
+    	"sex": "1",
+    	"economicActivity": "19",
+    	"registrationDate": "1978-05-23T11:21:11",
+    	"updateAt": "1990-02-12T10:39:03",
+    	"personalAddress": "MAPASINGUE. KM.5 1/2 VIA A DAULE. E.",
+    	"personalEmailAddress": "hector97@gmail.com",
+    	"bondingCenter": "Genérico",
+    	"bondingMedium": "Genérico",
+    	"state": "1",
+    	"income": "32372000",
+    	"otherIncome": "3713847.03",
+    	"totalIncome": "5323447.19",
+    	"passives": "9761263.69",
+    	"assets": "573050",
+    	"accountingEquity": "101541600",
+    	"8396f27a-8870-46ca-bd26-e0976731f1f2": "1"
+    }
+parameters: []
+headers:
+  - id: pair_83873896f97840a796fcbffb92bd6799
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_4c6796fa27894dd9bdc26950c3ea217d
+    name: x-api-key
+    value: "{{ _['x-api-key'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1689346761014
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
